@@ -1,6 +1,10 @@
-Jogo da cobrinha criado a partir do curso 100 days of code: The Complete Python Bootcamp da Dr. Angela Yu
+Jogo da cobrinha criado para treinar Orientação de Objetos. 
+Foi utilizado neste projeto o python versão 3.12, dentro da ferramenta focamos na biblioteca Turtle para executar o projeto.
+
+Para rodar o jogo criamos no vscodeuma aba main.py, uma score.py( para atualizar o score do jogo), uma food.py(criar a comida na tela para  a cobra seguir), e uma snake.py( onde criamos a cobra e seus movimentos).
 
 
+Abaixo segue uma amostra do arquivo main:
 #arquivo main
 from turtle import Turtle, Screen
 from snake import Snake
